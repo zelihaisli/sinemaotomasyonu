@@ -1,0 +1,17 @@
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\bin\Debug\net6.0-windows\Sinema Otomasyonu.exe
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\bin\Debug\net6.0-windows\Sinema Otomasyonu.deps.json
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\bin\Debug\net6.0-windows\Sinema Otomasyonu.runtimeconfig.json
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\bin\Debug\net6.0-windows\Sinema Otomasyonu.dll
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\bin\Debug\net6.0-windows\Sinema Otomasyonu.pdb
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.csproj.AssemblyReference.cache
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema_Otomasyonu.Form1.resources
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.csproj.GenerateResource.cache
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.AssemblyInfoInputs.cache
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.AssemblyInfo.cs
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.csproj.CoreCompileInputs.cache
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.dll
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\refint\Sinema Otomasyonu.dll
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.pdb
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\Sinema Otomasyonu.genruntimeconfig.cache
+C:\repo\sinemaotomasyonu\Sinema Otomasyonu\Sinema Otomasyonu\obj\Debug\net6.0-windows\ref\Sinema Otomasyonu.dll
