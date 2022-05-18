@@ -1,0 +1,2 @@
+# sinemaotomasyonu
+Yazılım Proje Yönetimi
