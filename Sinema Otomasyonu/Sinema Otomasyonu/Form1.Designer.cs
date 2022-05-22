@@ -319,7 +319,7 @@
             this.button7.BackgroundImage = global::Sinema_Otomasyonu.Properties.Resources.exit;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(689, 19);
+            this.button7.Location = new System.Drawing.Point(688, 19);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(132, 160);
             this.button7.TabIndex = 4;
