@@ -35,8 +35,8 @@
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.salonbox = new System.Windows.Forms.ComboBox();
+            this.filmbox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -83,8 +83,8 @@
             this.groupBox1.Controls.Add(this.comboBox5);
             this.groupBox1.Controls.Add(this.comboBox4);
             this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.salonbox);
+            this.groupBox1.Controls.Add(this.filmbox);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
@@ -148,21 +148,21 @@
             this.comboBox3.Size = new System.Drawing.Size(196, 29);
             this.comboBox3.TabIndex = 11;
             // 
-            // comboBox2
+            // salonbox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(120, 82);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(196, 29);
-            this.comboBox2.TabIndex = 10;
+            this.salonbox.FormattingEnabled = true;
+            this.salonbox.Location = new System.Drawing.Point(120, 82);
+            this.salonbox.Name = "salonbox";
+            this.salonbox.Size = new System.Drawing.Size(196, 29);
+            this.salonbox.TabIndex = 10;
             // 
-            // comboBox1
+            // filmbox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(120, 44);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(196, 29);
-            this.comboBox1.TabIndex = 9;
+            this.filmbox.FormattingEnabled = true;
+            this.filmbox.Location = new System.Drawing.Point(120, 44);
+            this.filmbox.Name = "filmbox";
+            this.filmbox.Size = new System.Drawing.Size(196, 29);
+            this.filmbox.TabIndex = 9;
             // 
             // button1
             // 
@@ -506,6 +506,7 @@
             this.Name = "Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel";
+            this.Load += new System.EventHandler(this.Panel_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -530,8 +531,8 @@
         private ComboBox comboBox5;
         private ComboBox comboBox4;
         private ComboBox comboBox3;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private ComboBox salonbox;
+        private ComboBox filmbox;
         private Button button1;
         private Label label8;
         private Label label7;
