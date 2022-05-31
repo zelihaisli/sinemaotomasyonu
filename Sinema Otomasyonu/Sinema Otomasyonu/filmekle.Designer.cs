@@ -168,6 +168,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "filmekle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "filmekle";
             this.Load += new System.EventHandler(this.filmekle_Load);
             this.ResumeLayout(false);

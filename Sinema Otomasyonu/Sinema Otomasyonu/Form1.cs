@@ -72,5 +72,11 @@ namespace Sinema_Otomasyonu
             salonbox.SelectedIndex = 0;
             filmbox.SelectedIndex = 0;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            seansekle seansekle=new seansekle();
+            seansekle.Show();
+        }
     }
 }
