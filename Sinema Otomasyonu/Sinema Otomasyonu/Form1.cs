@@ -28,7 +28,7 @@ namespace Sinema_Otomasyonu
             }
             catch (Exception hatamsj)
             {
-                MessageBox.Show(hatamsj.Message, "Akçin Market", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(hatamsj.Message, "Sinema Otomasyonu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 baglantim.Close();
             }
         }
@@ -49,7 +49,7 @@ namespace Sinema_Otomasyonu
             }
             catch (Exception hatamsj)
             {
-                MessageBox.Show(hatamsj.Message, "Akçin Market", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(hatamsj.Message, "Sinema Otomasyonu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 baglantim.Close();
             }
         }

@@ -150,6 +150,7 @@
             this.Name = "seansekle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "seansekle";
+            this.Load += new System.EventHandler(this.seansekle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
