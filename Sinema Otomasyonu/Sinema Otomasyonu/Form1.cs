@@ -78,5 +78,10 @@ namespace Sinema_Otomasyonu
             seansekle seansekle=new seansekle();
             seansekle.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
