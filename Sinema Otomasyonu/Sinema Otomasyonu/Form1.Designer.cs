@@ -163,6 +163,7 @@
             this.filmbox.Name = "filmbox";
             this.filmbox.Size = new System.Drawing.Size(196, 29);
             this.filmbox.TabIndex = 9;
+            this.filmbox.SelectedIndexChanged += new System.EventHandler(this.filmbox_SelectedIndexChanged);
             // 
             // button1
             // 

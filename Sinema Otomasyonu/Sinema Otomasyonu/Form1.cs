@@ -83,5 +83,29 @@ namespace Sinema_Otomasyonu
         {
             Application.Exit();
         }
+
+        private void filmbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (filmbox.SelectedItem.ToString()!="" && filmbox.SelectedItem.ToString() != "Seçiniz...")
+            {
+                try
+                {
+                    baglantim.Open();
+                    OleDbCommand sorgu = new OleDbCommand("SELECT * FROM film WHERE filmAdi= '"+filmbox.SelectedItem.ToString()+"'  ", baglantim);
+                    OleDbDataReader kayitokuma = sorgu.ExecuteReader();
+                    while (kayitokuma.Read())
+                    {
+                        comboBox3.Items.Add(kayitokuma.GetValue(5).ToString());
+                    }
+                    comboBox3.SelectedIndex = 0;
+                    baglantim.Close();
+                }
+                catch (Exception hatamsj)
+                {
+                    MessageBox.Show(hatamsj.Message, "Sinema Otomasyonu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    baglantim.Close();
+                }
+            }
+        }
     }
 }
