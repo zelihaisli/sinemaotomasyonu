@@ -14,7 +14,7 @@ namespace Sinema_Otomasyonu
         OleDbConnection baglantim = new OleDbConnection("Provider=Microsoft.Ace.OleDb.12.0;Data Source=data/database.accdb");
         private void filmlist()
         {
-            filmbox.Items.Add("Seçiniz...");
+            filmbox.Items.Add("Seï¿½iniz...");
             try
             {
                 baglantim.Open();
@@ -35,7 +35,7 @@ namespace Sinema_Otomasyonu
 
         private void salonlist()
         {
-            salonbox.Items.Add("Seçiniz...");
+            salonbox.Items.Add("Seï¿½iniz...");
             try
             {
                 baglantim.Open();
@@ -64,9 +64,28 @@ namespace Sinema_Otomasyonu
             filmekle filmekle=new filmekle();
             filmekle.Show();
         }
-
+        int=0;
         private void Panel_Load(object sender, EventArgs e)
         {
+
+            sayac = 1;
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    Button btn = new Button();
+                    btn.Size = new Size(30, 30);
+                    btn.Location = new Point(j * 30 + 20, i * 30 + 30);
+                    btn.Name = sayac.ToString();
+                    btn.Text = sayac.ToString();
+                    sayac++;
+                    this.panel1.Controls.Add(btn);
+                }
+                if (j = 4)
+                {
+                    continue;
+                }
+            }
             filmlist();
             salonlist();
             salonbox.SelectedIndex = 0;
@@ -86,7 +105,7 @@ namespace Sinema_Otomasyonu
 
         private void filmbox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (filmbox.SelectedItem.ToString()!="" && filmbox.SelectedItem.ToString() != "Seçiniz...")
+            if (filmbox.SelectedItem.ToString()!="" && filmbox.SelectedItem.ToString() != "Seï¿½iniz...")
             {
                 try
                 {
