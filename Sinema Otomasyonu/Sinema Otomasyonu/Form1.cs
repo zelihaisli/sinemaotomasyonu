@@ -64,7 +64,7 @@ namespace Sinema_Otomasyonu
             filmekle filmekle=new filmekle();
             filmekle.Show();
         }
-        int=0;
+        int sayac = 0;
         private void Panel_Load(object sender, EventArgs e)
         {
 
@@ -75,16 +75,17 @@ namespace Sinema_Otomasyonu
                 {
                     Button btn = new Button();
                     btn.Size = new Size(30, 30);
-                    btn.Location = new Point(j * 30 + 20, i * 30 + 30);
+                    btn.Location = new Point(j * 30 + 30, i * 30 + 30);
                     btn.Name = sayac.ToString();
                     btn.Text = sayac.ToString();
                     sayac++;
-                    this.panel1.Controls.Add(btn);
-                }
-                if (j = 4)
+                    this.groupBox5.Controls.Add(btn);
+                     if (j == 4)
                 {
                     continue;
                 }
+                }
+               
             }
             filmlist();
             salonlist();
